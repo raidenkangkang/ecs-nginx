@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--stepper css-->
+    <link rel="stylesheet" href="css/stepper.css" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Start your project here-->
+    <!-- Material input -->
+    <div class="container">
+        <!-- Grid row -->
+        <div class="row pt-5 d-flex justify-content-center">
+
+            <!-- Grid column -->
+            <div class="col-md-2 pl-5 pl-md-0 pb-5">
+
+                <!-- Stepper -->
+                <div class="steps-form-3">
+                    <div class="steps-row-3 setup-panel-3 d-flex justify-content-between">
+                        <div class="steps-step-3">
+                            <a href="#step-5" type="button" class="btn btn-info btn-circle-3 waves-effect ml-0" data-toggle="tooltip" data-placement="top" title="Your business"><i class="fa fa-address-book" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="steps-step-3">
+                            <a href="#step-6" type="button" class="btn btn-pink btn-circle-3 waves-effect p-3" data-toggle="tooltip" data-placement="top" title="Budget Information"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="steps-step-3">
+                            <a href="#step-7" type="button" class="btn btn-pink btn-circle-3 waves-effect" data-toggle="tooltip" data-placement="top" title="Financial Information"><i class="fa fa-money" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="steps-step-3 no-height">
+                            <a href="#step-8" type="button" class="btn btn-pink btn-circle-3 waves-effect p-3" data-toggle="tooltip" data-placement="top" title="Review & Submit"><i class="fa fa-check-square-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-7">
+
+                <form role="form" action="" method="post">
+
+
+                    <!-- First Step -->
+                    <div class="row setup-content-3" id="step-5">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Basic Information</strong></h3>
+                                <div class="form-group md-form">
+                                    <label for="user_sso" data-error="wrong" data-success="right">Your sso - OHR</label>
+                                    <input id="user_sso" type="text" required="required" class="form-control validate">
+                                </div>
+                                 <div class="form-group md-form">
+                                    <label for="user_first_name" data-error="wrong" data-success="right">Your first name - OHR</label>
+                                    <input id="user_first_name" type="text" required="required" class="form-control validate">
+                                </div>
+                                 <div class="form-group md-form">
+                                    <label for="user_last_name" data-error="wrong" data-success="right">Your last name - OHR</label>
+                                    <input id="user_last_name" type="text" required="required" class="form-control validate">
+                                </div>
+                                <div class="form-group md-form">
+                                    <label for="user_email" data-error="wrong" data-success="right">Your email address- OHR</label>
+                                    <input id="user_email" type="email" required="required" class="form-control validate">
+                                </div>
+
+                    <!--select the business-->
+                    <!--business select-->
+                            <div class="form-group md-form">
+                                <select class="mdb-select">
+                                    <option value="" disabled selected>Your business</option>
+                                    <option value="1">Healthcare</option>
+                                    <option value="2">Corporate</option>
+                                    <option value="3">Power</option>
+                                    <option value="4">Digital</option>
+                                    <option value="5">Aviation</option>
+                                </select>
+                                <label>Choose your business - OHR</label>
+                            </div>
+                            
+                    <!--sub-business select-->
+                            <div class="form-group md-form">
+                                <select class="mdb-select">
+                                    <option value="" disabled selected>Your sub-business</option>
+                                    <option value="1">Life Science</option>
+                                    <option value="2">HC IT</option>
+                                    <option value="3">Others</option>
+                                </select>
+                                <label>Choose your sub-business - OHR</label>
+                            </div>
+
+
+                            <button class="btn btn btn-default btn-rounded nextBtn-3 float-left" type="button">Save</button>
+                            <button class="btn btn-mdb-color btn-rounded nextBtn-3 float-right" type="button">Next</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Second Step -->
+                    <div class="row setup-content-3" id="step-6">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Personal Data</strong></h3>
+                            <div class="form-group md-form">
+                                <label for="yourName-3" data-error="wrong" data-success="right">First Name</label>
+                                <input id="yourName-3" type="text" required="required" class="form-control validate">
+                            </div>
+                            <div class="form-group md-form mt-3">
+                                <label for="secondName-3" data-error="wrong" data-success="right">Second Name</label>
+                                <input id="secondName-3" type="text" required="required" class="form-control validate">
+                            </div>
+                            <div class="form-group md-form mt-3">
+                                <label for="yourAddress-3" data-error="wrong" data-success="right">Address</label>
+                                <textarea id="yourAddress-3" type="text" required="required" rows="2" class="md-textarea validate form-control"></textarea>
+                            </div>
+                            <button class="btn btn-mdb-color btn-rounded prevBtn-3 float-left" type="button">Previous</button>
+                            <button class="btn btn-mdb-color btn-rounded nextBtn-3 float-right" type="button">Next</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Third Step -->
+                    <div class="row setup-content-3" id="step-7">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Terms and conditions</strong></h3>
+                            <div class="form-check">
+                                <input type="checkbox" id="checkbox115" class="form-check-input">
+                                <label for="checkbox115" class="form-check-label">I agree to the terms and conditions</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="checkbox114" class="form-check-input">
+                                <label for="checkbox114" class="form-check-label">I want to receive newsletter</label>
+                            </div>
+                            <button class="btn btn-mdb-color btn-rounded prevBtn-3 float-left" type="button">Previous</button>
+                            <button class="btn btn-mdb-color btn-rounded nextBtn-3 float-right" type="button">Next</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Fourth Step -->
+                    <div class="row setup-content-3" id="step-8">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Finish</strong></h3>
+                            <h2 class="text-center font-weight-bold my-4">Registration completed!</h2>
+                            <button class="btn btn-mdb-color btn-rounded prevBtn-3 float-left" type="button">Previous</button>
+                            <button class="btn btn-success btn-rounded float-right" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+    </div>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!--stepper js-->
+    <script type="text/javascript" src="js/stepper.js"></script>
+    <!--mdb-select js-->
+    <script type="text/javascript" src="js/mdb-select.js"></script>
+</body>
+
+</html>
