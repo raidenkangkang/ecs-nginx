@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca66c96a-a10d-47c6-a6ca-a4a1ce6907b7" name="Default" comment="ok">
+    <list default="true" id="ca66c96a-a10d-47c6-a6ca-a4a1ce6907b7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-src/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-src/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raiden-ecs-task-nginx.json" beforeDir="false" afterPath="$PROJECT_DIR$/raiden-ecs-task-nginx.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-src/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raiden-ecs-task-nginx.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raiden-ecs-task-nginx.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -37,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SOP</find>
+      <find>containerDefinitions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -52,6 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/web-src/homepage.html" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/raiden-ecs-task-nginx.json" />
       </list>
     </option>
   </component>
@@ -65,10 +86,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="102" />
+    <option name="x" value="1106" />
+    <option name="y" value="372" />
     <option name="width" value="2030" />
-    <option name="height" value="1484" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -85,11 +106,6 @@
             <path>
               <item name="ecs-nginx" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecs-nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecs-nginx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecs-nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="web-src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,20 +197,34 @@
       <option name="project" value="LOCAL" />
       <updated>1531147391456</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ok">
+      <created>1531147406153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531147406153</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ok">
+      <created>1531148491968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531148491968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="102" width="2030" height="1484" extended-state="0" />
+    <frame x="1106" y="372" width="2030" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50402415" side_tool="true" visible="true" weight="0.23020528" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4190141" side_tool="true" visible="true" weight="0.34346753" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49597585" visible="true" weight="0.23020528" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49597585" weight="0.23020528" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47743967" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5809859" visible="true" weight="0.34346753" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20925553" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -290,6 +320,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raiden-ecs-task-nginx-v_.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raiden-ecs-task-nginx.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
