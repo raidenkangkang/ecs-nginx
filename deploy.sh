@@ -6,6 +6,7 @@ CLUSTER=raiden-ecs-nginx
 IMAGE_VERSION="v_"${BUILD_NUMBER}
 TASK_FAMILY="raiden-ecs-task-nginx"
 
+echo whoami
 # Create a new task definition for this build
 echo "running sed command"
 sed -e "s;%BUILD_NUMBER%;${BUILD_NUMBER};g" raiden-ecs-task-nginx.json > raiden-ecs-task-nginx-v_${BUILD_NUMBER}.json
