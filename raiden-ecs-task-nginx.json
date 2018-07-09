@@ -1,0 +1,49 @@
+{
+    "taskDefinition": {
+        "taskDefinitionArn": "arn:aws:ecs:us-east-2:079385551353:task-definition/raiden-ecs-task-nginx:7",
+        "containerDefinitions": [
+            {
+                "name": "container-nginx",
+                "image": "079385551353.dkr.ecr.us-east-2.amazonaws.com/nginx:${BUILD_NUMBER}",
+                "cpu": 0,
+                "memory": 256,
+                "portMappings": [
+                    {
+                        "containerPort": 80,
+                        "hostPort": 80,
+                        "protocol": "tcp"
+                    }
+                ],
+                "essential": true,
+                "environment": [],
+                "mountPoints": [],
+                "volumesFrom": []
+            }
+        ],
+        "family": "raiden-ecs-task-nginx",
+        "taskRoleArn": "arn:aws:iam::079385551353:role/ecsTaskExecutionRole",
+        "executionRoleArn": "arn:aws:iam::079385551353:role/ecsTaskExecutionRole",
+        "revision": 7,
+        "volumes": [],
+        "status": "ACTIVE",
+        "requiresAttributes": [
+            {
+                "name": "ecs.capability.execution-role-ecr-pull"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.ecr-auth"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.task-iam-role"
+            }
+        ],
+        "placementConstraints": [],
+        "compatibilities": [
+            "EC2"
+        ],
+        "requiresCompatibilities": [
+            "EC2"
+        ],
+        "memory": "256"
+    }
+}
