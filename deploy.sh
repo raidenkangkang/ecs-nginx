@@ -15,7 +15,8 @@ aws ecs register-task-definition --family raiden-ecs-task-nginx --cli-input-json
 
 # Update the service with the new task definition and desired count
 echo "running revision"
-REVISION=`aws ecs describe-task-definition --task-definition raiden-ecs-task-nginx | egrep "revision" | tr "/" " " | awk '{print $2}' | sed 's/"$//'`
+#REVISION=`aws ecs describe-task-definition --task-definition raiden-ecs-task-nginx | egrep "revision" | tr "/" " " | awk '{print $2}' | sed 's/"$//'`
+REVISION="7"
 SERVICES=`aws ecs describe-services --services ${SERVICE_NAME} --cluster ${CLUSTER} --region ${REGION} | jq .failures[]`
 
 
